@@ -9,9 +9,23 @@ html, body {
 }
  
 @layer utilities {
+  @keyframes blinke {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+
+
   @keyframes loading {
     0% {
-      transform: translate(-50%)
+      transform: translate(0%)
     }
     100% {
       transform: translateX(400%);
@@ -19,6 +33,6 @@ html, body {
   }
 
   .animate-loading-bar {
-    animation: loading 1s ease infinite;
+    animation: loading 0.8s ease infinite;
   }
 }
