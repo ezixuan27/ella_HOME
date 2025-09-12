@@ -13,7 +13,7 @@ export const Home = () => {
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                 I'm a second year Computer Science student at Northeastern Univerisity in Boston,
-                with a minor in Supply Chain Management.
+                with a minor in Supply Chain Management. Really nice to meet you!
             </p>
             <div className="flex justify-center space-x-4">
                 <a
