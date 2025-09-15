@@ -19,19 +19,19 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     <div className="hidden md:flex items-center space-x-15 text-lg font-medium">
                         <a
                             href="#about"
-                            className="text-gray-300 hover:text-white transition-colors text-lg font-medium relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
+                            className="text-gray-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
                         >
                             About
                         </a>
                         <a
                             href="#projects"
-                            className="text-gray-300 hover:text-white transition-colors text-lg font-medium relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
+                            className="text-gray-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
                         >
                             Projects
                         </a>
                         <a
                             href="#contact"
-                            className="text-gray-300 hover:text-white transition-colors text-lg font-medium relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
+                            className="text-gray-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
                         >
                             Contact
                         </a>
@@ -39,7 +39,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                             href="https://drive.google.com/file/d/1XL0eKA0bFRUUoVSaPtx-xEb5jrzDAqCK/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-300 hover:text-white transition-colors text-lg font-medium relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
+                            className="text-gray-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:bg-white after:h-[2px] after:w-0 hover:after:w-full after:transition-all after:duration-300"
                         >
                             Resume
                         </a>

@@ -8,12 +8,12 @@ export const Home = () => {
         <RevealOnScroll>
         <div className="text-center z-10 px-4">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-                Hi, I'm Ella Zou.
+                Hi, I'm Zixuan Zou
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                 I'm a second year Computer Science student at Northeastern Univerisity in Boston,
-                with a minor in Supply Chain Management. Really nice to meet you!
+                with a minor in Supply Chain Management. Nice to meet you!
             </p>
             <div className="flex justify-center space-x-4">
                 <a
