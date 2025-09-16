@@ -16,7 +16,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         &#9776;
                     </div>
 
-                    <div className="hidden md:flex items-center space-x-15 text-lg font-medium">
+                    <div className="hidden md:flex items-center space-x-10 text-lg font-medium">
                         <a
                             href="#about"
                             className="text-[#E8EDF2] hover:text-white transition-colors 
