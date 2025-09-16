@@ -11,11 +11,12 @@ export const Home = () => {
                     Hi, I'm Zixuan Zou.
                 </h1>
 
-                <p className="text-[#344c67] text-lg mt-8 mb-8 max-w-lg mx-auto">
-                    I'm a second year Computer Science student at Northeastern Univerisity in Boston,
+                <p className="text-[#344c67] text-xl mt-8 mb-8 max-w-3xl mx-auto">
+                    I usually go by Ella! 
+                    I'm currently a second-year student at Northeastern Univerisity in Boston, MA pursuing a B.S. in Computer Science
                     with a minor in Supply Chain Management. Nice to meet you!
                 </p>
-                <div className="flex justify-center items-center space-x-20 mt-15">
+                <div className="flex justify-center items-center space-x-20 mt-20">
                     <a
                         href="#projects"
                         className="border border-[#4E8EF7] text-[#3B82F6] py-3 px-6 rounded font-medium 
