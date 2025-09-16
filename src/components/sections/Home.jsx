@@ -16,7 +16,7 @@ export const Home = () => {
                     I'm currently a second-year student at Northeastern Univerisity in Boston, MA pursuing a B.S. in Computer Science
                     with a minor in Supply Chain Management. Nice to meet you!
                 </p>
-                <div className="flex justify-center items-center space-x-20 mt-20">
+                <div className="flex-col justify-center items-center space-x-20 space-y-10 mt-20">
                     <a
                         href="#projects"
                         className="border border-[#4E8EF7] text-[#3B82F6] py-3 px-6 rounded font-medium 
