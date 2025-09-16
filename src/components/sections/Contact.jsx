@@ -76,6 +76,30 @@ export const Contact = () => {
                         </button>
 
                     </form>
+
+                    <div className="py-5 flex justify-center gap-5">
+                        <a href="https://github.com/ezixuan27"
+                            target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub"
+                            className="opacity-80 transition hover:opacity-100">
+                            <img src="github.svg"
+                                className="h-10 w-10" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/zixuan-zou"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            className="opacity-80 transition hover:opacity-100">
+                            <img src="linkedin.svg"
+                                className="h-10 w-10" />
+                        </a>
+                        <a href="mailto:zou.zix@northeastern.edu"
+                            aria-label="Email"
+                            className="opacity-80 transition hover:opacity-100">
+                            <img src="email.png"
+                                className="h-10 w-10" />
+                        </a>
+                    </div>
                 </div>
             </RevealOnScroll>
         </section>

@@ -1,40 +1,16 @@
 export const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <footer className="py-6 text-center text-gray-400">
-            <div className="flex justify-between items-center max-w-5xl mx-auto px-4 py-4">
-                <p className="text-sm">© {year} Zixuan Zou.</p>
-
-                <div className="flex justify-center space-x-4">
-                    <a href="https://github.com/ezixuan27"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="GitHub">
-                        <img src="github.svg"
-                            alt="GitHub"
-                            className="w-6 h-6" 
-                            />
-                    </a>
-                    <a href="www.linkedin.com/in/zixuan-zou"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="LinkedIn">
-                        <img src="linkedin.svg"
-                            alt="LinkedIn"
-                            className="w-6 h-6" 
-                            />
-                    </a>
-                    <a href="mailto:zou.zix@northeastern.edu"
-                        aria-label="Email">
-                        <img src="email.png"
-                            alt="Email"
-                            className="w-6 h-6"
-                        />
-                    </a>
-
+        <footer className="border-t border-white/10 bg-[#0b1220]/40 backdrop-blur py-2 text-gray-400">
+            <div className="mx-auto max-w-3xl px-4 text-black">
+                <div className="space-y-1 text-center text-sm leading-6">
+                    <p>© {year} Zixuan Zou.</p>
+                    <p>All rights to "Luo Xiaohei" characters belong to MTJJ / HMCH Animation Technology Co., Ltd.</p>
+                    <p>This website is for personal and non-commercial use only.</p>
                 </div>
-            </div>
 
+            </div>
         </footer>
+
     );
 }
