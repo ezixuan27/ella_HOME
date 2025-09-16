@@ -15,7 +15,7 @@ export const Home = () => {
                     I'm a second year Computer Science student at Northeastern Univerisity in Boston,
                     with a minor in Supply Chain Management. Nice to meet you!
                 </p>
-                <div className="flex justify-center items-center space-x-20 mt-10">
+                <div className="flex justify-center items-center space-x-20 mt-15">
                     <a
                         href="#projects"
                         className="border border-[#4E8EF7] text-[#3B82F6] py-3 px-6 rounded font-medium 
@@ -23,19 +23,22 @@ export const Home = () => {
                         hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] h-12">
                         View Projects
                     </a>
-                    <a
-                        href="#contact"
-                        className="border border-[#E86D2E] text-[#E86D2E] py-3 px-6 rounded font-medium 
+                    <div className="relative inline-block">
+                        <a
+                            href="#contact"
+                            className="border border-[#E86D2E] text-[#E86D2E] py-3 px-6 rounded font-medium 
                         transition transform hover:-translate-y-0.5 hover:bg-[#E86D2E]/90 hover:text-white 
                          hover:shadow-[0_0_15px_rgba(232,109,46,0.4)] h-12">
-                        Contact Me
-                    </a>
-                    <img src="小黑waving.gif"
+                            Contact Me
+                        </a>
+                        <img src="小黑waving.gif"
                             alt="someGif"
-                            className="w-20 h-20"
+                            className="absolute -top-21 left-1/2 w-20 h-20 pointer-events-none select-none z-10"
                         />
+                    </div>
+
                 </div>
-                
+
 
             </div>
         </RevealOnScroll>
