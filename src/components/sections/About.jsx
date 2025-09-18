@@ -49,55 +49,71 @@ export const About = () => {
 
                     <div className="timeline mt-8">
                         <RevealOnScroll>
-                        <div className="container left">
-                            <img src="NU_logo.png" 
-                            className="bg-white"/>
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-[#344c67] font-bold text-lg">Northeastern University</h2>
-                                <small className="text-[#344c67]">2024 - present, Boston/MA</small>
-                                <p className="text-[#344c67]">Computer Science Major & Supply Chain Management Minor</p>
-                                <span className="arrow"></span>
-                            </div>
-                        </div>
+                            <div className="container left">
+                                <img src="NU_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Northeastern University</h2>
+                                    <small className="text-[#344c67]">2024 - present, Boston/MA <br/>
+                                        Computer Science Major & Supply Chain Management Minor
+                                    </small>
+                                    <div className="text-[#344c67]">
+                                        <p>Relevant Coursework: </p>
+                                        <ul className="list-none list-inside space-y-2">
+                                            <li className="before:content-['▹']"> Algorithms and Data</li>
+                                            <li className="before:content-['▹']"> Object Oriented Design</li>
+                                            <li className="before:content-['▹']"> Global Supply Chain Strategy</li>
+                                            <li className="before:content-['▹']"> Foundations of Data Science</li>
+                                            <li className="before:content-['▹']"> Advanced Linear Algebra</li>
+                                            <li className="before:content-['▹']"> Advanced Mathmatical Reasoning</li>
+                                            <li className="before:content-['▹']"> Discrete Structures</li>
+                                            <li className="before:content-['▹']"> Fundamentals of Computer Science I/II</li>
+                                            <li className="before:content-['▹']"> Introduction to Cybersecurity</li>
+                                            <li className="before:content-['▹']"> Supply Chain and Operation Management</li>
+                                        </ul>
+                                    </div>
+                                        <span className="arrow"></span>
+                                    </div>
+                                </div>
                         </RevealOnScroll>
-                        
-                         <RevealOnScroll>
-                        <div className="container right">
-                            <img src="hebron_logo.png"
-                            className="bg-white" />
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
-                                <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
-                                <p className="text-[#344c67]">Public High School Diploma</p>
-                                <span className="arrow"></span>
-                            </div>
-                        </div>
-                         </RevealOnScroll>
 
-                          <RevealOnScroll>
-                        <div className="container left">
-                            <img src="NU_logo.png" 
-                            className="bg-white"/>
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-[#344c67] font-bold text-lg">Prestonwood Christian Academy</h2>
-                                <small className="text-[#344c67]">2022 - 2024, Frisco/TX</small>
-                                <p className="text-[#344c67]">Middle School</p>
-                                <span className="arrow"></span>
+                        <RevealOnScroll>
+                            <div className="container right">
+                                <img src="hebron_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Hebron High School</h2>
+                                    <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
+                                    <p className="text-[#344c67]">Public High School Diploma</p>
+                                    <span className="arrow"></span>
+                                </div>
                             </div>
-                        </div>
                         </RevealOnScroll>
-                         <RevealOnScroll>
-                        <div className="container right">
-                            <img src="hebron_logo.png"
-                            className="bg-white"/>
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
-                                <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
-                                <p className="text-[#344c67]">Public High School Diploma</p>
-                                <span className="arrow"></span>
+
+                        <RevealOnScroll>
+                            <div className="container left">
+                                <img src="NU_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Prestonwood Christian Academy</h2>
+                                    <small className="text-[#344c67]">2022 - 2024, Frisco/TX</small>
+                                    <p className="text-[#344c67]">Middle School</p>
+                                    <span className="arrow"></span>
+                                </div>
                             </div>
-                        </div>
-                         </RevealOnScroll>
+                        </RevealOnScroll>
+                        <RevealOnScroll>
+                            <div className="container right">
+                                <img src="hebron_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Hebron High School</h2>
+                                    <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
+                                    <p className="text-[#344c67]">Public High School Diploma</p>
+                                    <span className="arrow"></span>
+                                </div>
+                            </div>
+                        </RevealOnScroll>
                     </div>
 
 
@@ -133,7 +149,7 @@ export const About = () => {
                         </div>
                     </div> */}
                 </div>
-                </RevealOnScroll>
+            </RevealOnScroll>
         </section>
     )
 
