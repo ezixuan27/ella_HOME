@@ -47,9 +47,8 @@ export const About = () => {
                     </div>
 
 
-
-
                     <div className="timeline mt-8">
+                        <RevealOnScroll>
                         <div className="container left">
                             <img src="NU_logo.png" 
                             className="bg-white"/>
@@ -60,6 +59,9 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
+                        </RevealOnScroll>
+                        
+                         <RevealOnScroll>
                         <div className="container right">
                             <img src="hebron_logo.png"
                             className="bg-white" />
@@ -70,6 +72,9 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
+                         </RevealOnScroll>
+
+                          <RevealOnScroll>
                         <div className="container left">
                             <img src="NU_logo.png" 
                             className="bg-white"/>
@@ -80,6 +85,8 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
+                        </RevealOnScroll>
+                         <RevealOnScroll>
                         <div className="container right">
                             <img src="hebron_logo.png"
                             className="bg-white"/>
@@ -90,8 +97,8 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
+                         </RevealOnScroll>
                     </div>
-
 
 
                     {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -126,8 +133,7 @@ export const About = () => {
                         </div>
                     </div> */}
                 </div>
-
-            </RevealOnScroll>
+                </RevealOnScroll>
         </section>
     )
 
