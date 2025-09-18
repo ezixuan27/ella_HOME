@@ -23,21 +23,78 @@ export const About = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex items-center justify-center py-10"
+            className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
-            <div className="max-w-3xl mx-auto mx-4">
-                <h2
-                    className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
-                    ABOUT ME
-                </h2>
+                <div className="max-w-4xl mx-auto mx-4">
+                    <h2
+                        className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
+                        ABOUT ME
+                    </h2>
 
-                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6">
-                        Passinate developer looking for my first internship opportunity!
-                    </p>
+                    <div className="rounded-lg text-lg p-8 border-white/10 border">
+                        <p className="text-[#344c67] mb-6">
+                            I'm a student new to the tech field, deeply curious about the potential of AI and how
+                            it continues to reshape industries. With the internet taking decades to spread, and AI
+                            achieving similar impact in just a few years, I feel fortunate to be born in such an era.
+                            My interest in organizing and connecting systems naturally led me to supply chain, a field
+                            that not only sparks my passion but also holds the possibility of letting me see the world.
+                        </p>
+                        <p className="text-[#344c67] mb-6">
+                            Away from the screen, I've been climbing for 9 years and enjoy the chance to experience
+                            and capture the outdoors. I also have a passion for mechanical keyboards and creative crafting projects.
+                        </p>
+                    </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+
+                    <div className="timeline mt-8">
+                        <div className="container left">
+                            <img src="NU_logo.png" 
+                            className="bg-white"/>
+                            <div className="text-box">
+                                <h2 className="text-black font-bold text-lg">Northeastern University</h2>
+                                <small className="text-black">2024 - present, Boston/MA</small>
+                                <p className="text-black">Computer Science Major & Supply Chain Management Minor</p>
+                                <span className="arrow"></span>
+                            </div>
+                        </div>
+                        <div className="container right">
+                            <img src="hebron_logo.png"
+                            className="bg-white" />
+                            <div className="text-box">
+                                <h2 className="text-black font-bold text-lg">Hebron High School</h2>
+                                <small className="text-black">2020 - 2024, Carrollton/TX</small>
+                                <p className="text-black">Public High School Diploma</p>
+                                <span className="arrow"></span>
+                            </div>
+                        </div>
+                        <div className="container left">
+                            <img src="NU_logo.png" 
+                            className="bg-white"/>
+                            <div className="text-box">
+                                <h2 className="text-black font-bold text-lg">Northeastern University</h2>
+                                <small className="text-black">2024 - present, Boston/MA</small>
+                                <p className="text-black">Computer Science Major & Supply Chain Management Minor</p>
+                                <span className="arrow"></span>
+                            </div>
+                        </div>
+                        <div className="container right">
+                            <img src="hebron_logo.png"
+                            className="bg-white"/>
+                            <div className="text-box">
+                                <h2 className="text-black font-bold text-lg">Hebron High School</h2>
+                                <small className="text-black">2020 - 2024, Carrollton/TX</small>
+                                <p className="text-black">Public High School Diploma</p>
+                                <span className="arrow"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Skills</h3>
                             <div className="flex flex-wrap gap-2">
@@ -67,27 +124,10 @@ export const About = () => {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4"> Education </h3>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
-                            <li>
-                                <strong>
-                                    B.S. in Computer Science
-                                </strong>
-                                - Northeastern University, Boston, MA (2024 - 2028)
-                            </li>
-                            <li>
-                                Relevant Coursework: Discrete Structure, Algorithm and Data Science
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-             </RevealOnScroll>
+            </RevealOnScroll>
         </section>
     )
 
