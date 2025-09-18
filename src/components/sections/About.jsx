@@ -52,7 +52,7 @@ export const About = () => {
                         <div className="container left">
                             <img src="NU_logo.png" 
                             className="bg-white"/>
-                            <div className="text-box">
+                            <div className="text-box shadow-xl shadow-blue-100">
                                 <h2 className="text-[#344c67] font-bold text-lg">Northeastern University</h2>
                                 <small className="text-[#344c67]">2024 - present, Boston/MA</small>
                                 <p className="text-[#344c67]">Computer Science Major & Supply Chain Management Minor</p>
@@ -65,7 +65,7 @@ export const About = () => {
                         <div className="container right">
                             <img src="hebron_logo.png"
                             className="bg-white" />
-                            <div className="text-box">
+                            <div className="text-box shadow-xl shadow-blue-100">
                                 <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
                                 <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
                                 <p className="text-[#344c67]">Public High School Diploma</p>
@@ -78,7 +78,7 @@ export const About = () => {
                         <div className="container left">
                             <img src="NU_logo.png" 
                             className="bg-white"/>
-                            <div className="text-box">
+                            <div className="text-box shadow-xl shadow-blue-100">
                                 <h2 className="text-[#344c67] font-bold text-lg">Prestonwood Christian Academy</h2>
                                 <small className="text-[#344c67]">2022 - 2024, Frisco/TX</small>
                                 <p className="text-[#344c67]">Middle School</p>
@@ -90,7 +90,7 @@ export const About = () => {
                         <div className="container right">
                             <img src="hebron_logo.png"
                             className="bg-white"/>
-                            <div className="text-box">
+                            <div className="text-box shadow-xl shadow-blue-100">
                                 <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
                                 <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
                                 <p className="text-[#344c67]">Public High School Diploma</p>

@@ -19,7 +19,7 @@ export const Home = () => {
                 <div className="flex flex-col justify-center items-center space-y-20 py-20 md:flex-row md:space-x-20 md:space-y-0">
                     <a
                         href="#projects"
-                        className="inline-flex items-center justify-center border border-[#4E8EF7] text-[#3B82F6] px-6 rounded font-medium h-12
+                        className="shadow-sm shadow-[#4E8EF7]/50 inline-flex items-center justify-center border border-[#4E8EF7] text-[#3B82F6] px-6 rounded font-medium h-12
                         transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#4E8EF7]/90 hover:text-white
                         hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
                         View Projects
@@ -27,7 +27,7 @@ export const Home = () => {
                     <div className="relative">
                         <a
                             href="#contact"
-                            className="inline-flex items-center justify-center border border-[#E86D2E] text-[#E86D2E] px-6 rounded font-medium h-12
+                            className="shadow-sm shadow-[#E86D2E]/50 inline-flex items-center justify-center border border-[#E86D2E] text-[#E86D2E] px-6 rounded font-medium h-12
                             transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#E86D2E]/90 hover:text-white 
                             hover:shadow-[0_0_15px_rgba(232,109,46,0.4)]">
                             Contact Me
