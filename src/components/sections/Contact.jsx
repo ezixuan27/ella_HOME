@@ -77,7 +77,7 @@ export const Contact = () => {
 
                     </form>
 
-                    <div className="py-5 flex justify-center gap-5">
+                    <div className="mt-10 flex justify-center gap-10">
                         <a href="https://github.com/ezixuan27"
                             target="_blank" rel="noopener noreferrer"
                             aria-label="GitHub"

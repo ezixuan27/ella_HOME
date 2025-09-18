@@ -54,9 +54,9 @@ export const About = () => {
                             <img src="NU_logo.png" 
                             className="bg-white"/>
                             <div className="text-box">
-                                <h2 className="text-black font-bold text-lg">Northeastern University</h2>
-                                <small className="text-black">2024 - present, Boston/MA</small>
-                                <p className="text-black">Computer Science Major & Supply Chain Management Minor</p>
+                                <h2 className="text-[#344c67] font-bold text-lg">Northeastern University</h2>
+                                <small className="text-[#344c67]">2024 - present, Boston/MA</small>
+                                <p className="text-[#344c67]">Computer Science Major & Supply Chain Management Minor</p>
                                 <span className="arrow"></span>
                             </div>
                         </div>
@@ -64,9 +64,9 @@ export const About = () => {
                             <img src="hebron_logo.png"
                             className="bg-white" />
                             <div className="text-box">
-                                <h2 className="text-black font-bold text-lg">Hebron High School</h2>
-                                <small className="text-black">2020 - 2024, Carrollton/TX</small>
-                                <p className="text-black">Public High School Diploma</p>
+                                <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
+                                <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
+                                <p className="text-[#344c67]">Public High School Diploma</p>
                                 <span className="arrow"></span>
                             </div>
                         </div>
@@ -74,9 +74,9 @@ export const About = () => {
                             <img src="NU_logo.png" 
                             className="bg-white"/>
                             <div className="text-box">
-                                <h2 className="text-black font-bold text-lg">Northeastern University</h2>
-                                <small className="text-black">2024 - present, Boston/MA</small>
-                                <p className="text-black">Computer Science Major & Supply Chain Management Minor</p>
+                                <h2 className="text-[#344c67] font-bold text-lg">Prestonwood Christian Academy</h2>
+                                <small className="text-[#344c67]">2022 - 2024, Frisco/TX</small>
+                                <p className="text-[#344c67]">Middle School</p>
                                 <span className="arrow"></span>
                             </div>
                         </div>
@@ -84,9 +84,9 @@ export const About = () => {
                             <img src="hebron_logo.png"
                             className="bg-white"/>
                             <div className="text-box">
-                                <h2 className="text-black font-bold text-lg">Hebron High School</h2>
-                                <small className="text-black">2020 - 2024, Carrollton/TX</small>
-                                <p className="text-black">Public High School Diploma</p>
+                                <h2 className="text-[#344c67] font-bold text-lg">Hebron High School</h2>
+                                <small className="text-[#344c67]">2020 - 2024, Carrollton/TX</small>
+                                <p className="text-[#344c67]">Public High School Diploma</p>
                                 <span className="arrow"></span>
                             </div>
                         </div>
