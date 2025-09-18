@@ -5,6 +5,11 @@ export const LoadingScreen = ({ onComplete }) => {
     const fullText = "<Hello World />";
 
     useEffect(() => {
+    document.body.classList.add("overflow-hidden");
+    return () => document.body.classList.remove("overflow-hidden");
+  }, []);
+
+    useEffect(() => {
         let index = 0;
         const interval = setInterval(() => {
             setText(fullText.substring(0, index))
