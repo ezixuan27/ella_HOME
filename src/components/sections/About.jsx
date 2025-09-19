@@ -26,7 +26,7 @@ export const About = () => {
             className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
-                <div className="mx-auto mx-4 mt-10">
+                <div className="max-x-[1000px] mx-auto mx-4 mt-10">
                     <h2
                         className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
                         ABOUT ME
@@ -45,7 +45,7 @@ export const About = () => {
                             and capture the outdoors. I also have a passion for mechanical keyboards and creative crafting projects.
                         </p>
                     </div>
-                </div>
+                
 
 
                 <div className="flex flex-col space-y-4 md:hidden max-w-[300px] mx-auto my-5">
@@ -105,14 +105,11 @@ export const About = () => {
                     </div>
                 </div>
 
-
-
                 <h2 className="text-2xl text-[#5D88AA] text-center">
                     Education
                 </h2>
                 <div className="timeline mt-8 mx-auto">
 
-                    <RevealOnScroll>
                         <div className="container left">
                             <img src="NU_logo.png"
                                 className="bg-white" />
@@ -139,9 +136,7 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
-
-                    <RevealOnScroll>
+               
                         <div className="container left">
                             <div className="text-box shadow-xl shadow-blue-100">
                                 <p className="text-black font-bold">Extracurriculars: </p>
@@ -170,9 +165,8 @@ export const About = () => {
                                 <span className="arrow-top"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
+                    
 
-                    <RevealOnScroll>
                         <div className="container right">
                             <img src="hebron_logo.png"
                                 className="bg-white" />
@@ -197,9 +191,8 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
+                   
 
-                    <RevealOnScroll>
                         <div className="container right">
                             <div className="text-box shadow-xl shadow-blue-100">
                                 <p className="text-black font-bold">Extracurriculars: </p>
@@ -241,9 +234,7 @@ export const About = () => {
                                 <span className="arrow-top"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
-
-                    <RevealOnScroll>
+                  
                         <div className="container left">
                             <img src="pca.png"
                                 className="bg-white" />
@@ -253,8 +244,7 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
-                    <RevealOnScroll>
+                    
                         <div className="container right">
                             <img src="bjdl.jpeg"
                                 className="bg-white" />
@@ -264,7 +254,7 @@ export const About = () => {
                                 <span className="arrow"></span>
                             </div>
                         </div>
-                    </RevealOnScroll>
+
                 </div>
 
 
@@ -299,7 +289,7 @@ export const About = () => {
                             </div>
                         </div>
                     </div> */}
-
+</div>
             </RevealOnScroll>
         </section>
     )
