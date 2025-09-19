@@ -32,7 +32,7 @@ export const About = () => {
                         ABOUT ME
                     </h2>
 
-                    <div className="max-w-[1000px] rounded-lg text-lg p-8 border-white/10 border">
+                    <div className="max-w-[1000px] rounded-lg text-lg border-white/10 border">
                         <p className="text-[#344c67] mb-6">
                             I'm a student new to the tech field, deeply curious about the potential of AI and how
                             it continues to reshape industries. With the internet taking decades to spread, and AI
@@ -48,8 +48,8 @@ export const About = () => {
                 </div>
 
 
-                <div className="flex flex-col space-y-4 md:hidden max-w-[200px] mx-auto my-10">
-                    <div className="relative w-full h-[200px] rounded-xl overflow-hidden">
+                <div className="flex flex-col space-y-4 md:hidden max-w-[300px] mx-auto my-5">
+                    <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
                         <img
                             src="mypic.jpeg"
                             alt="Me"
@@ -62,7 +62,7 @@ export const About = () => {
                         />
                     </div>
 
-                    <div className="relative w-full h-[200px] rounded-xl overflow-hidden">
+                    <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
                         <img
                             src="candypic.jpg"
                             alt="Candy"
