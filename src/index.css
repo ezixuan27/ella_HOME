@@ -68,7 +68,7 @@ body {
 .text-box small {
   display: inline-block;
   margin-bottom: 15px;
-  font-size: 13px;
+  font-size: 15px;
   font-style: italic;
   text-underline-offset: 1px;
 }
@@ -129,6 +129,32 @@ body {
   }
 } */
 
+.container.right .arrow-top {
+  position: absolute;
+  top: -15px;           
+  left: 180px;              
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #8BB1D1;  
+  z-index: 10;
+  pointer-events: none;
+}
+
+.container.left .arrow-top {
+  position: absolute;
+  top: -15px;           
+  right: 190px;              
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #8BB1D1;  
+  z-index: 10;
+  pointer-events: none;
+}
+
 @media (min-width: 601px) {
   .container.left .arrow {
     position: absolute;
@@ -156,6 +182,7 @@ body {
     pointer-events: none;
   }
 }
+
 
 @media (max-width: 600px) {
   .timeline {
