@@ -26,13 +26,13 @@ export const About = () => {
             className="min-h-screen flex items-center justify-center py-20"
         >
             <RevealOnScroll>
-                <div className="max-w-4xl mx-auto mx-4">
+                <div className="mx-auto mx-4">
                     <h2
-                        className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
+                        className=" max-w-4xl text-3xl font-bold mb-8 text-[#5D88AA] text-center">
                         ABOUT ME
                     </h2>
 
-                    <div className="rounded-lg text-lg p-8 border-white/10 border">
+                    <div className="max-w-4xl rounded-lg text-lg p-8 border-white/10 border">
                         <p className="text-[#344c67] mb-6">
                             I'm a student new to the tech field, deeply curious about the potential of AI and how
                             it continues to reshape industries. With the internet taking decades to spread, and AI
@@ -47,7 +47,7 @@ export const About = () => {
                     </div>
 
 
-                    <div className="timeline mt-8">
+                    <div className="timeline max-w-6xl mt-8">
                         <RevealOnScroll>
                             <div className="container left">
                                 <img src="NU_logo.png"

@@ -8,8 +8,10 @@ export const RevealOnScroll = ({ children }) => {
     useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
-                ref.current.classList.add("visible")
-            }
+            ref.current.classList.add("visible");
+        } else {
+            ref.current.classList.remove("visible"); 
+        }
         }, { threshold: 0.2, rootMargin: "0px 0px -50px 0px" }
         )
         if (ref.current) {
