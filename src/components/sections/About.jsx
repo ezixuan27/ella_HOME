@@ -48,7 +48,70 @@ export const About = () => {
                 </div>
 
 
+                <div className="flex flex-col space-y-4 md:hidden max-w-[200px] mx-auto my-10">
+                    <div className="relative w-full h-[200px] rounded-xl overflow-hidden">
+                        <img
+                            src="mypic.jpeg"
+                            alt="Me"
+                            className="absolute inset-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 opacity-100 hover:opacity-0"
+                        />
+                        <img
+                            src="friends.jpeg"
+                            alt="Me and Friends"
+                            className="absolute inset-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 opacity-0 hover:opacity-100"
+                        />
+                    </div>
+
+                    <div className="relative w-full h-[200px] rounded-xl overflow-hidden">
+                        <img
+                            src="candypic.jpg"
+                            alt="Candy"
+                            className="absolute inset-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 opacity-100 hover:opacity-0"
+                        />
+                        <img
+                            src="candysleep.JPG"
+                            alt="Candy Sleep"
+                            className="absolute inset-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 opacity-0 hover:opacity-100"
+                        />
+                    </div>
+                </div>
+
+                <div className="hidden md:flex max-w-[1000px] mx-auto flex-row md:space-x-4 items-center justify-center my-10">
+
+                    <div className="relative w-2/5 h-150 rounded-xl overflow-hidden">
+                        <img
+                            src="mypic.jpeg"
+                            alt="Me"
+                            className="absolute inset-0 w-full h-full md:h-150 md:aspect-square object-cover rounded-xl transition-opacity duration-500 opacity-100 hover:opacity-0"
+                        />
+                        <img
+                            src="friends.jpeg"
+                            alt="Me and Friends"
+                            className="absolute inset-0 w-full h-full md:h-150 md:aspect-square object-cover rounded-xl transition-opacity duration-500 opacity-0 hover:opacity-100"
+                        />
+                    </div>
+
+                    <div className="relative w-2/5 h-150 rounded-xl overflow-hidden">
+                        <img
+                            src="candypic.jpg"
+                            alt="Candy"
+                            className="absolute inset-0 w-full h-full md:h-150 md:aspect-square object-cover rounded-xl transition-opacity duration-500 opacity-100 hover:opacity-0"
+                        />
+                        <img
+                            src="candysleep.JPG"
+                            alt="Candy Sleep"
+                            className="absolute inset-0 w-full h-full object-cover md:h-150 md:aspect-square rounded-xl transition-opacity duration-500 opacity-0 hover:opacity-100"
+                        />
+                    </div>
+                </div>
+
+
+
+                <h2 className="text-2xl text-[#5D88AA] text-center">
+                    Education
+                </h2>
                 <div className="timeline mt-8 mx-auto">
+
                     <RevealOnScroll>
                         <div className="container left">
                             <img src="NU_logo.png"
@@ -82,28 +145,28 @@ export const About = () => {
                         <div className="container left">
                             <div className="text-box shadow-xl shadow-blue-100">
                                 <p className="text-black font-bold">Extracurriculars: </p>
-                                    <ul className="text-[#344c67]">
-                                        <li className="flex items-start">
-                                            <div className="flex flex-col"> 
-                                                <span>♣️ Kaleidoscope (Khoury's Club Council)</span>
-                                                <span className="pl-6 text-sm">- Event Coordinator</span>
-                                            </div>
-                                            <span className="ml-auto">2025 – Present</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <div className="flex flex-col">
-                                                <span>♣️ NU Supply Chain Management Club</span>
-                                            </div>
-                                            <span className="ml-auto">2025 - Present</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <div className="flex flex-col">
-                                                <span>♣️ OASIS</span>
-                                                <span className="pl-6 text-sm">- Web Developer</span>
-                                            </div>
-                                            <span className="ml-auto">Jan - Mar, 2025</span>
-                                        </li>
-                                    </ul>
+                                <ul className="text-[#344c67]">
+                                    <li className="flex items-start">
+                                        <div className="flex flex-col">
+                                            <span>♣️ Kaleidoscope (Khoury's Club Council)</span>
+                                            <span className="pl-6 text-sm">- Event Coordinator</span>
+                                        </div>
+                                        <span className="ml-auto">2025 – Present</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="flex flex-col">
+                                            <span>♣️ NU Supply Chain Management Club</span>
+                                        </div>
+                                        <span className="ml-auto">2025 - Present</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="flex flex-col">
+                                            <span>♣️ OASIS</span>
+                                            <span className="pl-6 text-sm">- Web Developer</span>
+                                        </div>
+                                        <span className="ml-auto">Jan - Mar, 2025</span>
+                                    </li>
+                                </ul>
                                 <span className="arrow-top"></span>
                             </div>
                         </div>
@@ -140,41 +203,41 @@ export const About = () => {
                         <div className="container right">
                             <div className="text-box shadow-xl shadow-blue-100">
                                 <p className="text-black font-bold">Extracurriculars: </p>
-                                    <ul className="text-[#344c67]">
-                                        <li className="flex items-start">
-                                            <div className="flex flex-col">
-                                                <span>♣️ Family, Career, and Community Leaders of America</span>
-                                                <span className="pl-6 text-sm">- President</span>
-                                            </div>
-                                            <span className="ml-auto">2021 – 2024</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <div className="flex flex-col">
-                                                <span>👩🏻‍💻 Girls Who Code</span>
-                                                <span className="pl-6 text-sm">- Founder/President</span>
-                                            </div>
-                                            <span className="ml-auto">2023 - 2024</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <div className="flex flex-col">
-                                                <span>⚙️ VEX Robotics Team 87867D/V</span>
-                                                <span className="pl-6 text-sm">- Captain/Engineering Notebook Manager</span>
-                                            </div>
-                                            <span className="ml-auto">2023 - 2024</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <span>🌟 Rays Of Light Volunteer</span>
-                                            <span className="ml-auto">2020 - 2024</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <span>🧗 Team Texas Rock Climbing</span>
-                                            <span className="ml-auto">2021 – 2023</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <span>🧗 Team Lone Star Rock Climbing</span>
-                                            <span className="ml-auto">2019 - 2021</span>
-                                        </li>
-                                    </ul>
+                                <ul className="text-[#344c67]">
+                                    <li className="flex items-start">
+                                        <div className="flex flex-col">
+                                            <span>♣️ Family, Career, and Community Leaders of America</span>
+                                            <span className="pl-6 text-sm">- President</span>
+                                        </div>
+                                        <span className="ml-auto">2021 – 2024</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="flex flex-col">
+                                            <span>👩🏻‍💻 Girls Who Code</span>
+                                            <span className="pl-6 text-sm">- Founder/President</span>
+                                        </div>
+                                        <span className="ml-auto">2023 - 2024</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="flex flex-col">
+                                            <span>⚙️ VEX Robotics Team 87867D/V</span>
+                                            <span className="pl-6 text-sm">- Captain/Engineering Notebook Manager</span>
+                                        </div>
+                                        <span className="ml-auto">2023 - 2024</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <span>🌟 Rays Of Light Volunteer</span>
+                                        <span className="ml-auto">2020 - 2024</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <span>🧗 Team Texas Rock Climbing</span>
+                                        <span className="ml-auto">2021 – 2023</span>
+                                    </li>
+                                    <li className="flex items-center">
+                                        <span>🧗 Team Lone Star Rock Climbing</span>
+                                        <span className="ml-auto">2019 - 2021</span>
+                                    </li>
+                                </ul>
                                 <span className="arrow-top"></span>
                             </div>
                         </div>
