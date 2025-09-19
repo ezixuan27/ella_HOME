@@ -26,7 +26,7 @@ export const About = () => {
             className="min-h-screen flex flex-col py-20"
         >
 
-            <div className="max-w-[1000px] mx-auto mx-4 my-20">
+            <div className="max-w-[1000px] mx-auto w-full mx-4 my-10">
                 <RevealOnScroll>
                     <h2
                         className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
@@ -47,7 +47,7 @@ export const About = () => {
                     </div>
                 </RevealOnScroll>
 
-                <div className="flex flex-col space-y-4 md:hidden max-w-[300px] mx-auto my-5">
+                <div className="flex flex-col space-y-4 md:hidden w-full max-w-[300px] mx-auto my-5">
                     <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
                         <img
                             src="mypic.jpeg"
