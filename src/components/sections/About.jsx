@@ -23,15 +23,15 @@ export const About = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex items-center justify-center py-20"
+            className="min-h-screen flex flex-col py-20"
         >
-            <RevealOnScroll>
-                <div className="max-x-[1000px] mx-auto mx-4 mt-10">
+
+            <div className="max-w-[1000px] mx-auto mx-4 my-20">
+                <RevealOnScroll>
                     <h2
                         className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
                         ABOUT ME
                     </h2>
-
                     <div className="max-w-[1000px] rounded-lg text-lg border-white/10 border mx-4">
                         <p className="text-[#344c67] mb-6">
                             I'm a student new to the tech field, deeply curious about the potential of AI and how
@@ -45,8 +45,7 @@ export const About = () => {
                             and capture the outdoors. I also have a passion for mechanical keyboards and creative crafting projects.
                         </p>
                     </div>
-                
-
+                </RevealOnScroll>
 
                 <div className="flex flex-col space-y-4 md:hidden max-w-[300px] mx-auto my-5">
                     <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
@@ -104,158 +103,171 @@ export const About = () => {
                         />
                     </div>
                 </div>
+                <RevealOnScroll>
+                    <h2 className="text-2xl mt-10 text-[#5D88AA] text-center">
+                        Education
+                    </h2>
 
-                <h2 className="text-2xl text-[#5D88AA] text-center">
-                    Education
-                </h2>
-                <div className="timeline mt-8 mx-auto">
 
-                        <div className="container left">
-                            <img src="NU_logo.png"
-                                className="bg-white" />
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-black font-bold text-lg">Northeastern University</h2>
-                                <small className="text-[#344c67]">2024 - present, Boston/MA <br />
-                                    Computer Science Major & Supply Chain Management Minor
-                                </small>
-                                <div className="text-[#344c67]">
-                                    <p className="font-bold">Relevant Coursework: </p>
-                                    <ul className="list-none list-inside space-y-1.5 columns-2">
-                                        <li className="before:content-['▹']"> Algorithms and Data</li>
-                                        <li className="before:content-['▹']"> Object Oriented Design</li>
-                                        <li className="before:content-['▹']"> Global Supply Chain Strategy</li>
-                                        <li className="before:content-['▹']"> Foundations of Data Science</li>
-                                        <li className="before:content-['▹']"> Advanced Linear Algebra</li>
-                                        <li className="before:content-['▹']"> Advanced Mathematical Reasoning</li>
-                                        <li className="before:content-['▹']"> Discrete Structures</li>
-                                        <li className="before:content-['▹']"> Fundamentals of Computer Science I/II</li>
-                                        <li className="before:content-['▹']"> Introduction to Cybersecurity</li>
-                                        <li className="before:content-['▹']"> Supply Chain and Operation Management</li>
-                                    </ul>
+                    <div className="timeline mt-8 mx-auto">
+
+                        <RevealOnScroll>
+                            <div className="container left">
+                                <img src="NU_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Northeastern University</h2>
+                                    <small className="text-[#344c67]">2024 - present, Boston/MA <br />
+                                        Computer Science Major & Supply Chain Management Minor
+                                    </small>
+                                    <div className="text-[#344c67]">
+                                        <p className="font-bold">Relevant Coursework: </p>
+                                        <ul className="list-none list-inside space-y-1.5 columns-2">
+                                            <li className="before:content-['▹']"> Algorithms and Data</li>
+                                            <li className="before:content-['▹']"> Object Oriented Design</li>
+                                            <li className="before:content-['▹']"> Global Supply Chain Strategy</li>
+                                            <li className="before:content-['▹']"> Foundations of Data Science</li>
+                                            <li className="before:content-['▹']"> Advanced Linear Algebra</li>
+                                            <li className="before:content-['▹']"> Advanced Mathematical Reasoning</li>
+                                            <li className="before:content-['▹']"> Discrete Structures</li>
+                                            <li className="before:content-['▹']"> Fundamentals of Computer Science I/II</li>
+                                            <li className="before:content-['▹']"> Introduction to Cybersecurity</li>
+                                            <li className="before:content-['▹']"> Supply Chain and Operation Management</li>
+                                        </ul>
+                                    </div>
+                                    <span className="arrow"></span>
                                 </div>
-                                <span className="arrow"></span>
                             </div>
-                        </div>
-               
-                        <div className="container left">
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <p className="text-black font-bold">Extracurriculars: </p>
-                                <ul className="text-[#344c67]">
-                                    <li className="flex items-start">
-                                        <div className="flex flex-col">
-                                            <span>♣️ Kaleidoscope (Khoury's Club Council)</span>
-                                            <span className="pl-6 text-sm">- Event Coordinator</span>
-                                        </div>
-                                        <span className="ml-auto">2025 – Present</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="flex flex-col">
-                                            <span>♣️ NU Supply Chain Management Club</span>
-                                        </div>
-                                        <span className="ml-auto">2025 - Present</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="flex flex-col">
-                                            <span>♣️ OASIS</span>
-                                            <span className="pl-6 text-sm">- Web Developer</span>
-                                        </div>
-                                        <span className="ml-auto">Jan - Mar, 2025</span>
-                                    </li>
-                                </ul>
-                                <span className="arrow-top"></span>
-                            </div>
-                        </div>
-                    
+                        </RevealOnScroll>
 
-                        <div className="container right">
-                            <img src="hebron_logo.png"
-                                className="bg-white" />
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-black font-bold text-lg">Hebron High School</h2>
-                                <small className="text-[#344c67]">2020 - 2024, Carrollton/TX <br />GPA: 3.86/4.0</small>
-                                <div className="text-[#344c67]">
-                                    <p className="font-bold">AP Courses Taken: </p>
-                                    <ul className="list-none list-inside space-y-1.5 columns-2">
-                                        <li className="before:content-['▹']"> Calculus BC</li>
-                                        <li className="before:content-['▹']"> Computer Science A</li>
-                                        <li className="before:content-['▹']"> Macroeconomics</li>
-                                        <li className="before:content-['▹']"> US Government</li>
-                                        <li className="before:content-['▹']"> Physics 1</li>
-                                        <li className="before:content-['▹']"> Physics C</li>
-                                        <li className="before:content-['▹']"> World History</li>
-                                        <li className="before:content-['▹']"> Human Geography</li>
-                                        <li className="before:content-['▹']"> Psychology</li>
-                                        <li className="before:content-['▹']"> Chinese</li>
+                        <RevealOnScroll>
+                            <div className="container left">
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <p className="text-black font-bold">Extracurriculars: </p>
+                                    <ul className="text-[#344c67]">
+                                        <li className="flex items-start">
+                                            <div className="flex flex-col">
+                                                <span>♣️ Kaleidoscope (Khoury's Club Council)</span>
+                                                <span className="pl-6 text-sm">- Event Coordinator</span>
+                                            </div>
+                                            <span className="ml-auto">2025 – Present</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <div className="flex flex-col">
+                                                <span>♣️ NU Supply Chain Management Club</span>
+                                            </div>
+                                            <span className="ml-auto">2025 - Present</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <div className="flex flex-col">
+                                                <span>♣️ OASIS</span>
+                                                <span className="pl-6 text-sm">- Web Developer</span>
+                                            </div>
+                                            <span className="ml-auto">Jan - Mar, 2025</span>
+                                        </li>
                                     </ul>
+                                    <span className="arrow-top"></span>
                                 </div>
-                                <span className="arrow"></span>
                             </div>
-                        </div>
-                   
+                        </RevealOnScroll>
 
-                        <div className="container right">
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <p className="text-black font-bold">Extracurriculars: </p>
-                                <ul className="text-[#344c67]">
-                                    <li className="flex items-start">
-                                        <div className="flex flex-col">
-                                            <span>♣️ Family, Career, and Community Leaders of America</span>
-                                            <span className="pl-6 text-sm">- President</span>
-                                        </div>
-                                        <span className="ml-auto">2021 – 2024</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="flex flex-col">
-                                            <span>👩🏻‍💻 Girls Who Code</span>
-                                            <span className="pl-6 text-sm">- Founder/President</span>
-                                        </div>
-                                        <span className="ml-auto">2023 - 2024</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <div className="flex flex-col">
-                                            <span>⚙️ VEX Robotics Team 87867D/V</span>
-                                            <span className="pl-6 text-sm">- Captain/Engineering Notebook Manager</span>
-                                        </div>
-                                        <span className="ml-auto">2023 - 2024</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <span>🌟 Rays Of Light Volunteer</span>
-                                        <span className="ml-auto">2020 - 2024</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <span>🧗 Team Texas Rock Climbing</span>
-                                        <span className="ml-auto">2021 – 2023</span>
-                                    </li>
-                                    <li className="flex items-center">
-                                        <span>🧗 Team Lone Star Rock Climbing</span>
-                                        <span className="ml-auto">2019 - 2021</span>
-                                    </li>
-                                </ul>
-                                <span className="arrow-top"></span>
+                        <RevealOnScroll>
+                            <div className="container right">
+                                <img src="hebron_logo.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Hebron High School</h2>
+                                    <small className="text-[#344c67]">2020 - 2024, Carrollton/TX <br />GPA: 3.86/4.0</small>
+                                    <div className="text-[#344c67]">
+                                        <p className="font-bold">AP Courses Taken: </p>
+                                        <ul className="list-none list-inside space-y-1.5 columns-2">
+                                            <li className="before:content-['▹']"> Calculus BC</li>
+                                            <li className="before:content-['▹']"> Computer Science A</li>
+                                            <li className="before:content-['▹']"> Macroeconomics</li>
+                                            <li className="before:content-['▹']"> US Government</li>
+                                            <li className="before:content-['▹']"> Physics 1</li>
+                                            <li className="before:content-['▹']"> Physics C</li>
+                                            <li className="before:content-['▹']"> World History</li>
+                                            <li className="before:content-['▹']"> Human Geography</li>
+                                            <li className="before:content-['▹']"> Psychology</li>
+                                            <li className="before:content-['▹']"> Chinese</li>
+                                        </ul>
+                                    </div>
+                                    <span className="arrow"></span>
+                                </div>
                             </div>
-                        </div>
-                  
-                        <div className="container left">
-                            <img src="pca.png"
-                                className="bg-white" />
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-black font-bold text-lg">Prestonwood Christian Academy</h2>
-                                <small className="text-[#344c67]">2020 - 2022, Frisco/TX</small>
-                                <span className="arrow"></span>
-                            </div>
-                        </div>
-                    
-                        <div className="container right">
-                            <img src="bjdl.jpeg"
-                                className="bg-white" />
-                            <div className="text-box shadow-xl shadow-blue-100">
-                                <h2 className="text-black font-bold text-lg">East Beijing Road Primary School</h2>
-                                <small className="text-[#344c67]">2014 - 2020, Nanjing/China</small>
-                                <span className="arrow"></span>
-                            </div>
-                        </div>
+                        </RevealOnScroll>
 
-                </div>
+                        <RevealOnScroll>
+                            <div className="container right">
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <p className="text-black font-bold">Extracurriculars: </p>
+                                    <ul className="text-[#344c67]">
+                                        <li className="flex items-start">
+                                            <div className="flex flex-col">
+                                                <span>♣️ Family, Career, and Community Leaders of America</span>
+                                                <span className="pl-6 text-sm">- President</span>
+                                            </div>
+                                            <span className="ml-auto">2021 – 2024</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <div className="flex flex-col">
+                                                <span>👩🏻‍💻 Girls Who Code</span>
+                                                <span className="pl-6 text-sm">- Founder/President</span>
+                                            </div>
+                                            <span className="ml-auto">2023 - 2024</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <div className="flex flex-col">
+                                                <span>⚙️ VEX Robotics Team 87867D/V</span>
+                                                <span className="pl-6 text-sm">- Captain/Engineering Notebook Manager</span>
+                                            </div>
+                                            <span className="ml-auto">2023 - 2024</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <span>🌟 Rays Of Light Volunteer</span>
+                                            <span className="ml-auto">2020 - 2024</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <span>🧗 Team Texas Rock Climbing</span>
+                                            <span className="ml-auto">2021 – 2023</span>
+                                        </li>
+                                        <li className="flex items-center">
+                                            <span>🧗 Team Lone Star Rock Climbing</span>
+                                            <span className="ml-auto">2019 - 2021</span>
+                                        </li>
+                                    </ul>
+                                    <span className="arrow-top"></span>
+                                </div>
+                            </div>
+                        </RevealOnScroll>
+
+                        <RevealOnScroll>
+                            <div className="container left">
+                                <img src="pca.png"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">Prestonwood Christian Academy</h2>
+                                    <small className="text-[#344c67]">2020 - 2022, Frisco/TX</small>
+                                    <span className="arrow"></span>
+                                </div>
+                            </div>
+                        </RevealOnScroll>
+
+                        <RevealOnScroll>
+                            <div className="container right">
+                                <img src="bjdl.jpeg"
+                                    className="bg-white" />
+                                <div className="text-box shadow-xl shadow-blue-100">
+                                    <h2 className="text-black font-bold text-lg">East Beijing Road Primary School</h2>
+                                    <small className="text-[#344c67]">2014 - 2020, Nanjing/China</small>
+                                    <span className="arrow"></span>
+                                </div>
+                            </div>
+                        </RevealOnScroll>
+
+                    </div>
+                </RevealOnScroll>
 
 
                 {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -289,8 +301,7 @@ export const About = () => {
                             </div>
                         </div>
                     </div> */}
-</div>
-            </RevealOnScroll>
+            </div>
         </section>
     )
 
