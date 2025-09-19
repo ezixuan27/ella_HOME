@@ -23,12 +23,12 @@ export const About = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex items-center justify-center relative py-20"
+            className="min-h-screen mx-4 flex flex-col items-center justify-center relative py-20"
         >
             <RevealOnScroll>
                 <div className="mx-auto mx-4">
                     <h2
-                        className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
+                        className="text-3xl font-bold mb-8 mt-10 text-[#5D88AA] text-center">
                         ABOUT ME
                     </h2>
 
@@ -46,7 +46,6 @@ export const About = () => {
                         </p>
                     </div>
                 </div>
-
 
                 <div className="flex flex-col space-y-4 md:hidden max-w-[300px] mx-auto my-5">
                     <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
@@ -105,13 +104,16 @@ export const About = () => {
                     </div>
                 </div>
 
+            </RevealOnScroll>
 
-
+            <RevealOnScroll>
                 <h2 className="text-2xl text-[#5D88AA] text-center">
                     Education
                 </h2>
-                <div className="timeline mt-8 mx-auto">
+            </RevealOnScroll>
 
+            <RevealOnScroll>
+                <div className="timeline mt-8 mx-auto">
                     <RevealOnScroll>
                         <div className="container left">
                             <img src="NU_logo.png"
@@ -266,9 +268,8 @@ export const About = () => {
                         </div>
                     </RevealOnScroll>
                 </div>
-
-
-                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            </RevealOnScroll>
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Skills</h3>
                             <div className="flex flex-wrap gap-2">
@@ -300,7 +301,7 @@ export const About = () => {
                         </div>
                     </div> */}
 
-            </RevealOnScroll>
+
         </section>
     )
 
