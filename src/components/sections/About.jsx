@@ -26,13 +26,13 @@ export const About = () => {
             className="min-h-screen flex flex-col py-20"
         >
 
-            <div className="max-w-[1000px] mx-auto w-full mx-4 my-10">
+            <div className="max-w-1/2 mx-auto w-full mx-4 my-10">
                 <RevealOnScroll>
                     <h2
-                        className="text-3xl font-bold mb-8 text-[#5D88AA] text-center">
+                        className="text-5xl font-bold mb-8 text-[#5D88AA] text-center">
                         ABOUT ME
                     </h2>
-                    <div className="max-w-[1000px] rounded-lg text-lg border-white/10 border mx-4">
+                    <div className="rounded-lg text-xl border-white/10 border mx-4">
                         <p className="text-[#344c67] mb-6">
                             I'm a student new to the tech field, deeply curious about the potential of AI and how
                             it continues to reshape industries. With the internet taking decades to spread, and AI
