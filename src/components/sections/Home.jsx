@@ -7,7 +7,7 @@ export const Home = () => {
     >
         <RevealOnScroll>
             <div className="text-center z-10 px-4 mt-50">
-                <h1 className="md:text-7xl font-bold bg-gradient-to-r from-[#5D88AA] to-[#E86D2E] bg-clip-text text-transparent leading-right">
+                <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-[#5D88AA] to-[#E86D2E] bg-clip-text text-transparent leading-right">
                     Hi, I'm Zixuan Zou.
                 </h1>
 
