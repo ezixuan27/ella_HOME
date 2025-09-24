@@ -26,7 +26,7 @@ export const About = () => {
             className="min-h-screen flex flex-col py-20"
         >
 
-            <div className="max-w-2/3 mx-auto w-full mx-2 my-10">
+            <div className="md:max-w-2/3 md:mx-auto w-full mx-4 my-10">
                 <RevealOnScroll>
                     <h2
                         className="text-5xl font-bold mb-8 text-[#5D88AA] text-center">

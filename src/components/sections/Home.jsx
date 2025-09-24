@@ -3,7 +3,7 @@ import { RevealOnScroll } from '../RevealOnScroll';
 export const Home = () => {
     return <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative py-20"
+        className="min-h-screen flex items-center justify-center relative px-4 py-20"
     >
         <RevealOnScroll>
             <div className="text-center z-10 px-4 mt-50">
@@ -13,7 +13,7 @@ export const Home = () => {
 
                 <p className="text-[#344c67] text-2xl mt-8 mb-8 max-w-4xl mx-auto">
                     I usually go by Ella! 
-                    I'm currently a second-year student at Northeastern Univerisity in Boston, MA pursuing a B.S. in Computer Science
+                    I'm currently a second-year student at Northeastern Univerisity in Boston, MA, pursuing a B.S. in Computer Science
                     with a minor in Supply Chain Management. Nice to meet you!
                 </p>
                 <div className="flex flex-col justify-center items-center space-y-20 py-20 md:flex-row md:space-x-20 md:space-y-0">
