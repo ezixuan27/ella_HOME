@@ -24,10 +24,11 @@ export const Projects = () => {
             id="projects"
             className="min-h-screen flex items-center justify-center py-20"
         >
-            <RevealOnScroll>
-                <div className="md:max-w-2/3 max-w-full md:mx-auto mx-5 my-10">
+            <div className="md:max-w-2/3 max-w-full md:mx-auto mx-5 my-10">
+                <RevealOnScroll>
                     <h2
-                        className="text-5xl font-bold mb-8 text-[#2C4E80] text-center">
+                        className="text-4xl md:text-5xl font-bold md:mt-10 mb-8 text-[#2C4E80] text-center
+                        after:block after:w-80 after:h-[3px] after:bg-[#2C4E80] after:mx-auto after:mt-5">
                         FEATURED PROJECTS
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -100,7 +101,7 @@ export const Projects = () => {
                                 retrieval-augmented generation (RAG), and automated Q&A through Discord commands, supporting over 100 student inquiries each week. Alongside this project,
                                 I’m currently working on Elicitation Simulation, an agent focused on interactive scenario-based learning.
                             </p>
-                            
+
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Python", "VS Code", "n8n"].map((tech, key) => (
                                     <span
@@ -121,9 +122,9 @@ export const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </RevealOnScroll>
+            </div>
 
-                </div>
-            </RevealOnScroll>
         </section>
     )
 }

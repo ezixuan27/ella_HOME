@@ -3,17 +3,17 @@ import { RevealOnScroll } from '../RevealOnScroll';
 export const Home = () => {
     return <section
         id="home"
-        className="min-h-screen max-w-full flex items-center justify-center relative px-4 py-20"
+        className="min-h-screen max-w-full flex items-center justify-center relative mx-4 py-20"
     >
         <RevealOnScroll>
-            <div className="text-center max-w-full md:mx-auto z-10 px-4 mt-50">
-                <h1 className="font-['Josefin_Sans',_sans-serif] font-bold tracking-tight leading-tight text-5xl md:text-7xl">
+            <div className="text-center max-w-full md:mx-auto z-10 px-4 mt-10 md:mt-50">
+                <h1 className="font-['Josefin_Sans',_sans-serif] font-bold tracking-tight leading-tight text-4xl md:text-7xl">
                     <span className="text-[#395279]">Hi, I’m</span>
                     <span className="text-[#d1865e] ml-4">Zixuan Zou.</span>
                 </h1>
 
 
-                <p className="text-[#3e577b] text-2xl mt-8 mb-8 max-w-4xl mx-auto">
+                <p className="text-[#3e577b] text-xl md:text-2xl mt-8 md:mb-8 max-w-4xl mx-auto">
                     I usually go by Ella!
                     I'm currently a second-year student at Northeastern Univerisity in Boston, MA, pursuing a B.S. in Computer Science
                     with a minor in Supply Chain Management. Nice to meet you!
