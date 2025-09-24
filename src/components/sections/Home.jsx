@@ -3,10 +3,10 @@ import { RevealOnScroll } from '../RevealOnScroll';
 export const Home = () => {
     return <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative px-4 py-20"
+        className="min-h-screen max-w-full flex items-center justify-center relative px-4 py-20"
     >
         <RevealOnScroll>
-            <div className="text-center z-10 px-4 mt-50">
+            <div className="text-center max-w-full md:mx-auto z-10 px-4 mt-50">
                 <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-[#5D88AA] to-[#E86D2E] bg-clip-text text-transparent leading-right">
                     Hi, I'm Zixuan Zou.
                 </h1>

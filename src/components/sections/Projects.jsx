@@ -2,8 +2,6 @@ import { RevealOnScroll } from "../RevealOnScroll"
 
 export const Projects = () => {
 
-
-
     const tagColors2 = {
         React: "bg-sky-100 text-sky-700 hover:bg-sky-200",
         JSX: "bg-sky-100 text-sky-700 hover:bg-sky-200",
@@ -20,6 +18,7 @@ export const Projects = () => {
         "VS Code": "bg-blue-500/10 text-blue-500 hover:bg-blue-500/20",
         n8n: "bg-[#F8BBD0] text-[#C2185B] hover:bg-[#EC407A]/65",
     };
+
     return (
         <section
             id="projects"
@@ -33,7 +32,8 @@ export const Projects = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Mudle
                             </h3>
@@ -60,7 +60,9 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+
+                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Calendar App
                             </h3>
@@ -87,7 +89,8 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Cybersecurity AI Agents
                             </h3>

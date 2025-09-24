@@ -28,7 +28,7 @@ export const Contact = () => {
             className="min-h-screen flex items-center justify-center mt-10 "
         >
             <RevealOnScroll>
-                <div className="px-4 w-150">
+                <div className="px-4 md:w-150 max-w-full md:mx-auto">
                    <h2 className="text-5xl font-bold mb-8 text-[#5D88AA] text-center">
                         Get In Touch</h2>
                     <form className="space-y-6" onSubmit={handleSubmit}>
