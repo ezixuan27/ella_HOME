@@ -6,7 +6,7 @@ export const Home = () => {
         className="min-h-screen max-w-full flex items-center justify-center relative mx-4 py-20"
     >
         <RevealOnScroll>
-            <div className="text-center max-w-full md:mx-auto z-10 px-4 mt-10 md:mt-45">
+            <div className="text-center max-w-full md:mx-auto z-10 px-4 mt-15 md:mt-45">
                 <h1 className="font-['Josefin_Sans',_sans-serif] font-bold tracking-tight leading-tight text-4xl md:text-7xl">
                     <span className="text-[#395279]">Hi, I’m</span>
                     <span className="text-[#d1865e] ml-4">Zixuan Zou.</span>
@@ -19,7 +19,7 @@ export const Home = () => {
                     with a minor in Supply Chain Management. Nice to meet you!
                 </p>
 
-                <div className="flex flex-col justify-center items-center space-y-20 py-20 md:flex-row md:space-x-20 md:space-y-0">
+                <div className="flex flex-col justify-center items-center space-y-20 py-10 md:py-20 md:flex-row md:space-x-20 md:space-y-0">
                     <a
                         href="#projects"
                         className="bg-[#3a537b] shadow-sm shadow-[#4E8EF7]/50 inline-flex items-center justify-center border border-[#4E8EF7] text-[#d0865e] px-6 rounded font-medium h-12
@@ -37,7 +37,7 @@ export const Home = () => {
                         </a>
                         <img src="小黑waving.gif"
                             alt="someGif"
-                            className="absolute -top-28 left-1/3 w-30 h-30 pointer-events-none select-none z-10"
+                            className="absolute -top-18 left-1/2 w-20 h-20 md:-top-28 md:left-1/3 md:w-30 md:h-30 pointer-events-none select-none z-10"
                         />
                     </div>
 
