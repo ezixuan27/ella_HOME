@@ -36,9 +36,9 @@ export const Projects = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        <div className="bg-white/60 p-6 rounded-xl border border-slate-200 shadow-sm
                         hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                            <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
+                            <h3 className="text-[rgb(26,43,76)] text-2xl font-bold mb-2 uppercase">
                                 Mudle
                             </h3>
                             <p className="text-[#3B4859] mb-3 text-lg">
@@ -65,7 +65,7 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        <div className="bg-white/60 p-6 rounded-xl border border-slate-200 shadow-sm
                         hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Calendar App
@@ -94,7 +94,7 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                        <div className="bg-white/60 p-6 rounded-xl border border-slate-200 shadow-sm
                         hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Cybersecurity AI Agents
@@ -126,7 +126,7 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                    <div className="p-6 rounded-xl border border-slate-200 shadow-sm
+                    <div className="bg-white/60 p-6 rounded-xl border border-slate-200 shadow-sm
                         hover:-translate-y-1 hover:border-blue-500/30 hober:shadow-[0?2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-[#1A2B4C] text-2xl font-bold mb-2 uppercase">
                                 Sports Nutrition - FCCLA
