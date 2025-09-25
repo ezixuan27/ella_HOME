@@ -28,29 +28,52 @@ export const About = () => {
 
             <div className="md:max-w-2/3 md:mx-auto w-full px-4 my-10">
                 <RevealOnScroll>
-                    <h2
+
+                    <div className="rounded-lg text-lg md:text-xl border-white/10 border
+                    rounded-3xl bg-[#F7FAFF] shadow-md p-2 md:p-12">
+                        <h2
                         className="text-4xl md:text-5xl font-bold mb-8 text-[#5D88AA] text-center 
-             relative after:content-[''] after:block after:w-40 after:h-[3px] 
-             after:bg-[#5D88AA] after:mx-auto after:mt-3">
+                                    relative after:content-[''] after:block after:w-40 after:h-[3px] 
+                                    after:bg-[#5D88AA] after:mx-auto after:mt-3">
                         ABOUT ME
                     </h2>
-
-                    <div className="rounded-lg text-lg md:text-xl border-white/10 border mx-4">
-                        <p className="text-[#044568] mb-6">
+                        <p className="text-[#044568]">
                             I'm a student new to the tech field, deeply curious about the potential of AI and how
                             it continues to reshape industries. With the internet taking decades to spread, and AI
                             achieving similar impact in just a few years, I feel fortunate to be born in such an era.
                             My interest in organizing and connecting systems naturally led me to supply chain, a field
                             that not only sparks my passion but also holds the possibility of letting me see the world.
                         </p>
-                        <p className="text-[#344c67] mb-6">
-                            Away from the screen, I've been climbing for 9 years and enjoy the chance to experience
-                            and capture the outdoors. I also have a passion for mechanical keyboards and creative crafting projects.
-                        </p>
+
+                        <div>
+                            <div className="flex flex-row gap-5 items-start pt-4">
+
+                                <div>
+                                    <p className="text-xl leading-8 text-[#344c67]">
+                                        Away from the screen, I've been climbing for 9 years and enjoy the chance to experience
+                                        and capture the outdoors. I also have a passion for mechanical keyboards and creative crafting projects.
+                                    </p>
+                                </div>
+
+                                <div className="flex min-w-[250px] rounded-xl bg-[#FFFFFF] shadow shadow-md p-4 h-fit hidden md:block
+                                hover hover:-translate-y-1">
+                                    <h3 className="text-lg font-semibold text-[#5D88AA] mb-3">
+                                        PERSONAL TAGS
+                                    </h3>
+                                    <ul className="text-sm list-disc list-inside space-y-2 text-[#344c67] marker:text-[#344c67]">
+                                        <li>Rock Climber</li>
+                                        <li>Tech Enthusiast</li>
+                                        <li>Mechenical Keyboard Fan</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </RevealOnScroll>
 
-                <div className="flex flex-col space-y-4 md:hidden w-full max-w-[300px] mx-auto my-5">
+                <div className="flex flex-col space-y-4 md:hidden w-full max-w-[300px] my-5 gap-8">
                     <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
                         <img
                             src="mypic.jpeg"
@@ -80,7 +103,7 @@ export const About = () => {
 
                 <div className="hidden md:flex max-w-[1000px] mx-auto flex-row md:space-x-4 items-center justify-center my-10">
 
-                    <div className="relative w-2/5 h-150 rounded-xl overflow-hidden">
+                    <div className="flex flex-1 relative w-2/5 h-150 rounded-xl overflow-hidden">
                         <img
                             src="mypic.jpeg"
                             alt="Me"
@@ -93,7 +116,7 @@ export const About = () => {
                         />
                     </div>
 
-                    <div className="relative w-2/5 h-150 rounded-xl overflow-hidden">
+                    <div className="flex flex-1 relative w-2/5 h-150 rounded-xl overflow-hidden">
                         <img
                             src="candypic.jpg"
                             alt="Candy"
@@ -119,7 +142,7 @@ export const About = () => {
                         <RevealOnScroll>
                             <div className="container left">
                                 <img src="NU_logo.png"
-                                    className="bg-white" />
+                                    className="bg-white " />
                                 <div className="text-box shadow-xl shadow-blue-100">
                                     <h2 className="text-black font-bold text-lg">Northeastern University</h2>
                                     <small className="text-[#344c67]">2024 - present, Boston/MA <br />
@@ -179,7 +202,7 @@ export const About = () => {
                         <RevealOnScroll>
                             <div className="container right">
                                 <img src="hebron_logo.png"
-                                    className="bg-white" />
+                                    className="bg-white " />
                                 <div className="text-box shadow-xl shadow-blue-100">
                                     <h2 className="text-black font-bold text-lg">Hebron High School</h2>
                                     <small className="text-[#344c67]">2020 - 2024, Carrollton/TX <br />GPA: 3.86/4.0</small>
@@ -250,7 +273,7 @@ export const About = () => {
                         <RevealOnScroll>
                             <div className="container left">
                                 <img src="pca.png"
-                                    className="bg-white" />
+                                    className="bg-white " />
                                 <div className="text-box shadow-xl shadow-blue-100">
                                     <h2 className="text-black font-bold text-lg">Prestonwood Christian Academy</h2>
                                     <small className="text-[#344c67]">2020 - 2022, Frisco/TX</small>
@@ -262,7 +285,7 @@ export const About = () => {
                         <RevealOnScroll>
                             <div className="container right">
                                 <img src="bjdl.jpeg"
-                                    className="bg-white" />
+                                    className="bg-white " />
                                 <div className="text-box shadow-xl shadow-blue-100">
                                     <h2 className="text-black font-bold text-lg">East Beijing Road Primary School</h2>
                                     <small className="text-[#344c67]">2014 - 2020, Nanjing/China</small>
@@ -275,7 +298,7 @@ export const About = () => {
                 </RevealOnScroll>
 
 
-                
+
             </div>
         </section>
     )
