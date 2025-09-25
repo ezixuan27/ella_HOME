@@ -31,7 +31,7 @@ export const Home = () => {
                         <a
                             href="#contact"
                             className="bg-[#d0865e] shadow-sm shadow-[#E86D2E]/50 inline-flex items-center justify-center border border-[#E86D2E] text-[#FFFFF] px-6 rounded font-medium h-12
-                            transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#E86D2E]/80 hover:text-white 
+                            transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#E86D2E]/65 hover:text-white 
                             hover:shadow-[0_0_15px_rgba(232,109,46,0.4)]">
                             Contact Me
                         </a>

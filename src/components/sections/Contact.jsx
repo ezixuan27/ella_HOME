@@ -25,7 +25,7 @@ export const Contact = () => {
     return (
         <section
             id="contact"
-            className="min-h-screen flex items-center justify-center mt-10 "
+            className="bg-white min-h-screen flex items-center justify-center mt-10 "
         >
             <RevealOnScroll>
                 <div className="px-4 md:w-150 max-w-full md:mx-auto">

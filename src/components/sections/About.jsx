@@ -23,7 +23,7 @@ export const About = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex flex-col py-20"
+            className="bg-white min-h-screen flex flex-col py-20"
         >
 
             <div className="md:max-w-2/3 md:mx-auto w-full px-4 my-10">
@@ -107,7 +107,9 @@ export const About = () => {
                     </div>
                 </div>
 
-                <h2 className="text-2xl mt-10 text-[#5D88AA] text-center">
+                <h2 className="text-3xl font-bold mt-10 text-[#5D88AA] text-center
+                after:block after:w-25 after:h-[3px] 
+             after:bg-[#5D88AA] after:mx-auto after:mt-3">
                     Education
                 </h2>
 
@@ -273,37 +275,7 @@ export const About = () => {
                 </RevealOnScroll>
 
 
-                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Skills</h3>
-                            <div className="flex flex-wrap gap-2">
-                                {languages.map((language, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                hober:shadow-[0?2px_8px_rgba(59, 130, 2246, 0.2)] transition"
-                                    >
-                                        {language}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-
-                        <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Tools</h3>
-                            <div className="flex flex-wrap gap-2">
-                                {tools.map((tool, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                hober:shadow-[0?2px_8px_rgba(59, 130, 2246, 0.2)] transition"
-                                    >
-                                        {tool}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-                    </div> */}
+                
             </div>
         </section>
     )
