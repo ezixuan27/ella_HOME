@@ -73,7 +73,7 @@ export const About = () => {
                     </div>
                 </RevealOnScroll>
 
-                <div className="flex flex-col space-y-4 md:hidden w-full max-w-[300px] my-5 gap-8">
+                <div className="flex flex-col space-y-4 md:hidden w-full max-w-[400] my-5 gap-8">
                     <div className="relative w-full h-[300px] rounded-xl overflow-hidden">
                         <img
                             src="mypic.jpeg"
