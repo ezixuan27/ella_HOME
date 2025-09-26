@@ -101,7 +101,7 @@ export const About = () => {
                     </div>
                 </div>
 
-                <div className="hidden md:flex max-w-[1000px] mx-auto flex-row md:space-x-4 items-center justify-center my-10">
+                <div className="hidden md:flex flex-1 mx-auto flex-row md:space-x-4 items-center justify-center my-10">
 
                     <div className="flex flex-1 relative w-2/5 h-150 rounded-xl overflow-hidden">
                         <img
