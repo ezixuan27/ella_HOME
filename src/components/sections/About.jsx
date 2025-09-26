@@ -26,7 +26,7 @@ export const About = () => {
             className="bg-white min-h-screen flex flex-col py-20"
         >
 
-            <div className="md:max-w-2/3 md:mx-auto w-full px-4 my-10">
+            <div className="md:max-w-2/3 md:mx-auto lg:max-w-1/2 w-full px-4 my-10">
                 <RevealOnScroll>
 
                     <div className="rounded-lg text-lg md:text-xl border-white/10 border
